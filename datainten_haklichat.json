@@ -1,0 +1,226 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis",
+        "kawan"
+      ],
+      "responses": [
+        "Hai! Saya haklibot. Mau tahu informasi tentang penerimaan mahasiswa baru, kan?",
+        "Halo! Saya haklibot, siap membantu memberikan informasi tentang penerimaan mahasiswa baru.",
+        "Selamat datang! Ini haklibot. Mau tanya-tanya soal pendaftaran mahasiswa baru?"
+      ]
+    },
+    {
+      "tag": "penjelasan_penerimaan_mahasiswa_baru",
+      "patterns": [
+        "Apa itu penerimaan mahasiswa baru?",
+        "Jelaskan tentang penerimaan mahasiswa baru"
+      ],
+      "responses": [
+        "Penerimaan mahasiswa baru adalah proses seleksi untuk menerima mahasiswa yang akan melanjutkan pendidikan di perguruan tinggi. Proses ini mencakup pendaftaran, seleksi ujian, dan pembayaran biaya kuliah."
+      ]
+    },
+    {
+      "tag": "persyaratan_pendaftaran",
+      "patterns": [
+        "Apa saja persyaratan untuk mendaftar?",
+        "Persyaratan apa yang dibutuhkan untuk pendaftaran?"
+      ],
+      "responses": [
+        "Persyaratan pendaftaran mahasiswa baru biasanya mencakup fotokopi ijazah, transkrip nilai, dan dokumen lainnya sesuai dengan kebijakan masing-masing perguruan tinggi."
+      ]
+    },
+    {
+      "tag": "cara_pendaftaran",
+      "patterns": [
+        "Bagaimana cara mendaftar?",
+        "Apa langkah-langkah pendaftaran mahasiswa baru?"
+      ],
+      "responses": [
+        "Pendaftaran mahasiswa baru dapat dilakukan secara online melalui situs resmi STIKES HAKLI Semarang. Biasanya, calon mahasiswa diminta untuk mengisi formulir, mengunggah dokumen, dan membayar biaya pendaftaran."
+      ]
+    },
+    {
+      "tag": "periode_pendaftaran",
+      "patterns": [
+        "Kapan periode pendaftaran dimulai?",
+        "Tanggal pendaftaran mahasiswa baru kapan?"
+      ],
+      "responses": [
+        "Periode pendaftaran mahasiswa baru biasanya dimulai pada bulan Pebruari hingga September, tergantung pada kebijakan masing-masing perguruan tinggi."
+      ]
+    },
+    {
+      "tag": "ujian_seleksi",
+      "patterns": [
+        "Bagaimana ujian seleksi dilakukan?",
+        "Apa saja ujian seleksi yang harus dilalui?"
+      ],
+      "responses": [
+        "Ujian seleksi untuk penerimaan mahasiswa baru umumnya mencakup tes tertulis dan wawancara. Beberapa perguruan tinggi juga mengadakan ujian keterampilan atau tes khusus sesuai dengan program studi yang dipilih."
+      ]
+    },
+    {
+      "tag": "biaya_pendaftaran",
+      "patterns": [
+        "Berapa biaya pendaftaran?",
+        "Biaya untuk mendaftar berapa?"
+      ],
+      "responses": [
+        "Biaya pendaftaran untuk mahasiswa baru meliputi administrasi pendaftaran dan ujian seleksi."
+      ]
+    },
+    {
+      "tag": "pembayaran_online",
+      "patterns": [
+        "Apakah pembayaran bisa dilakukan secara online?",
+        "Bisa bayar pendaftaran secara online nggak?"
+      ],
+      "responses": [
+        "Ya, pembayaran pendaftaran bisa dilakukan secara online melalui sistem pembayaran yang disediakan oleh universitas. Pembayaran dapat dilakukan melalui transfer bank, e-wallet, atau metode pembayaran lainnya."
+      ]
+    },
+    {
+      "tag": "informasi_tambah",
+      "patterns": [
+        "Ada informasi lain terkait pendaftaran?",
+        "Apa ada informasi penting lainnya tentang pendaftaran?"
+      ],
+      "responses": [
+        "Pastikan untuk selalu memeriksa situs resmi perguruan tinggi untuk informasi terbaru mengenai pendaftaran, persyaratan, jadwal ujian, dan lainnya. Jangan lupa juga untuk mengikuti pengumuman mengenai seleksi mahasiswa baru."
+      ]
+    },
+    {
+      "tag": "biaya_pendaftaran_mahasiswa_baru",
+      "patterns": [
+        "Berapa biaya pendaftaran mahasiswa baru?",
+        "Berapa biaya untuk mendaftar?"
+      ],
+      "responses": [
+        "Biaya pendaftaran mahasiswa baru adalah Rp 300.000, yang harus dibayarkan pada saat pendaftaran online melalui laman resmi perguruan tinggi."
+      ]
+    },
+    {
+      "tag": "rincian_pembayaran_1_semester",
+      "patterns": [
+        "Berapa biaya kuliah per semester?",
+        "Apa rincian pembayaran 1 semester?",
+        "Bagaimana rincian biaya untuk satu semester?"
+      ],
+      "responses": [
+        "Biaya kuliah per semester terdiri dari biaya kuliah utama sebesar Rp 3.500.000, biaya administrasi sebesar Rp 300.000, dan biaya fasilitas sebesar Rp 1.000.000. Total biaya per semester adalah Rp 11.500.000."
+      ]
+    },
+    {
+      "tag": "biaya_praktek",
+      "patterns": [
+        "Berapa biaya untuk kegiatan praktek?",
+        "Apakah ada biaya praktek untuk mahasiswa?",
+        "Berapa biaya praktek per semester?"
+      ],
+      "responses": [
+        "Untuk kegiatan praktek, mahasiswa dikenakan biaya sebesar Rp 1.500.000 per semester untuk program D3, dan Rp 2.000.000 per semester untuk program S1. Biaya ini mencakup peralatan, materi praktek, serta biaya lapangan."
+      ]
+    },
+    {
+      "tag": "program_studi",
+      "patterns": [
+        "Apa saja jurusan atau program studi yang tersedia?",
+        "Jurusan apa saja yang ada di universitas?"
+      ],
+      "responses": [
+        "Kami memiliki beberapa program studi yang bisa kamu pilih, yaitu:\n1. S1 Kesehatan Masyarakat\n2. D3 Sanitasi\n3. D3 Rekam Medis & Informasi Kesehatan\n4. D3 Optometri"
+      ]
+    },
+    {
+      "tag": "biaya_perkuliahan_s1_kesehatan_masyarakat",
+      "patterns": [
+        "Berapa biaya kuliah S1 Kesehatan Masyarakat per semester?",
+        "Biaya kuliah S1 Kesehatan Masyarakat berapa?"
+      ],
+      "responses": [
+        "Untuk program studi S1 Kesehatan Masyarakat, biaya kuliah per semester adalah Rp 3.500.000. Biaya praktek adalah Rp 2.000.000 per semester."
+      ]
+    },
+    {
+      "tag": "biaya_perkuliahan_d3_sanitasi",
+      "patterns": [
+        "Berapa biaya kuliah D3 Sanitasi per semester?",
+        "Biaya kuliah D3 Sanitasi berapa?"
+      ],
+      "responses": [
+        "Untuk program studi D3 Sanitasi, biaya kuliah per semester adalah Rp 3.000.000. Biaya praktek adalah Rp 1.500.000 per semester."
+      ]
+    },
+    {
+      "tag": "biaya_perkuliahan_d3_rekam_medis",
+      "patterns": [
+        "Berapa biaya kuliah D3 Rekam Medis & Informasi Kesehatan per semester?",
+        "Biaya kuliah D3 Rekam Medis & Informasi Kesehatan berapa?"
+      ],
+      "responses": [
+        "Untuk program studi D3 Rekam Medis & Informasi Kesehatan, biaya kuliah per semester adalah Rp 3.000.000. Biaya praktek adalah Rp 1.500.000 per semester."
+      ]
+    },
+    {
+      "tag": "biaya_perkuliahan_d3_optometri",
+      "patterns": [
+        "Berapa biaya kuliah D3 Optometri per semester?",
+        "Biaya kuliah D3 Optometri berapa?"
+      ],
+      "responses": [
+        "Untuk program studi D3 Optometri, biaya kuliah per semester adalah Rp 3.000.000. Biaya praktek adalah Rp 2.00.000 per semester."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye! Semoga sukses dengan pendaftaranmu.",
+        "Dadahh! Semoga perjalanan pendaftaranmu lancar!",
+        "Goodbye! Sampai jumpa di kampus!",
+        "Sampai jumpa lagi! Semoga proses pendaftaran berjalan lancar!"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama, semoga sukses ya!",
+        "Terima kasih juga! Semoga pendaftaranmu berjalan lancar!"
+      ]
+    }
+  ]
+}
